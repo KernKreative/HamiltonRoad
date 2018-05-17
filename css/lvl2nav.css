@@ -1,0 +1,71 @@
+/*NAVBAR FOR INDIVIDUAL PAGES lvl2Nav.php
+Note: a:link - a:visited - a:hover MUST come after in the CSS definition in order to be effective.
+Note: a:hover - a:active MUST come after in the CSS definition in order to be effective.*/
+
+#ham-rd.navbar {
+
+}
+.paddingZero{
+    padding: 0!important;
+}
+.navImage {
+    display: none;
+}
+#ham-rd.navbar-light .navbar-brand {
+    padding: 0;
+}
+#ham-rd.navbar.navbar-light {
+    background-color: #fff !important;
+}
+
+#ham-rd.navbar-expand-md .navbar-nav {
+    margin: 0 auto; /*center main nav*/
+}
+#ham-rd.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 1.7rem;
+    padding: 0 20px;
+    font-weight: 600;
+}
+#ham-rd.navbar-light .navbar-nav .nav-link:focus,
+#ham-rd.navbar-light .navbar-nav .nav-link:hover{
+    color: #4f4f4f;
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .hrTop {
+        display: none;
+    }
+    #restaurantPic {
+        margin-top: 87px;
+    }
+    .navImage {
+        display: block;
+        width: 41px;
+        margin: 0 20px;
+    }
+    #ham-rd.navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 15;
+    }
+    #ham-rd.navbar.bg-light {
+        background-color: rgba(0, 0, 0,1) !important;
+    }
+    #ham-rd.navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    #ham-rd.navbar-light .navbar-nav .nav-link {
+        color: rgba(255,255,255,.8);
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+    }
+    #ham-rd.navbar-light .navbar-nav .nav-link:focus,
+    #ham-rd.navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,1);
+    }
+
+}

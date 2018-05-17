@@ -1,0 +1,178 @@
+/*MAIN NAVBAR ON INDEX.PHP
+Note: a:link - a:visited - a:hover MUST come after in the CSS definition in order to be effective.
+Note: a:hover - a:active MUST come after in the CSS definition in order to be effective.*/
+#navMain.navbar{
+    position: fixed;
+    top: 2%;
+    display: block;
+    z-index: 10;
+    max-width: 350px;
+    padding-left: 60px;
+    text-align: left;
+}
+.navbar-collapse {
+    padding-left: 10px;
+}
+#navMain.navbar.bg-light {
+    background-color: transparent !important;
+}
+#navMain.navbar-expand-md .navbar-nav {
+    display: block;
+}
+#navMain.navbar-light .navbar-brand {
+    color: rgba(211,211,211,1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+#navMain.navbar-light .navbar-toggler {
+    background-color: orange;
+}
+#navMain.navbar-light .navbar-nav .nav-link { /*main menu*/
+    color: rgba(255,255,255,1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0; /*see here */
+}
+#navMain.navbar-light .navbar-nav .nav-link:hover { /*main menu*/
+    color: rgba(211,211,211,1);
+}
+
+/*Dropdown*/
+#navMain .dropdown-menu {
+    margin-left: 180px;
+    background-color: transparent;
+    top: -15px;
+}
+#navMain .dropdown-item {
+    padding: 5px;
+    clear: both;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(255,255,255,1);
+    border: 0;
+}
+#navMain .dropdown-item:focus, #navMain .dropdown-item:hover {
+    color: rgba(211,211,211,1);
+    background-color: transparent;
+}
+
+
+
+/*----------------------------------- NAVBAR TOP FIXED ------------------------*/
+.navImage {
+    display: none;
+}
+#nav2.navbar {
+    padding: 10px 15px;
+}
+.navbar-collapse {
+    padding-left: 0;
+}
+.nav2brand {
+    width: 80%;
+    padding: 0 20px;
+}
+#nav2.navbar-light .navbar-brand {
+    float: left;
+    padding: 0;
+}
+#nav2.navbar.bg-light {
+    background-color: rgba(0, 0, 0,1) !important;
+}
+#nav2.navbar-light .navbar-toggler {
+    background-color: rgba(0, 0, 0,1);
+    border: none;
+    margin: 15px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+#navbarSupportedContent2 {
+    padding-top: 60px;
+}
+
+#nav2 .nav-item {
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: calc(100% - 200px);
+}
+#nav2.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#nav2.navbar-light .navbar-nav .nav-link:focus,
+#nav2.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+/*Dropdown*/
+#nav2 .dropdown-menu {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+#nav2 .dropdown-item {
+    padding: 10px;
+    clear: both;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(255,255,255,.8);
+    border: 0;
+    background-color: transparent;
+}
+#nav2 .dropdown-item:focus, #nav2 .dropdown-item:hover {
+    color: rgba(255,255,255,1);
+}
+
+/*DISPLAY PROPERTIES*/
+#nav2.navbar {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+#nav2 .navbar-toggler {
+    float: right;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    /*MOBILE DISPLAY PROPERTIES*/
+    #navMain.navbar {
+        display: none;
+    }
+
+    #nav2.navbar {
+        display: block;
+
+    }
+    .nav2brand {
+        display: none;
+    }
+    .navImage {
+        display: block;
+        width: 41px;
+        margin: 0 20px;
+    }
+
+    /*Dropdown*/
+    #nav2 .dropdown-item {
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+    #nav2 .nav-item {
+        width: 100%;
+    }
+    #nav2.navbar-light .navbar-nav .nav-link {
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+
+
+
+}

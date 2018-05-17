@@ -1,0 +1,544 @@
+body {
+    position: relative;
+	width: 100%;
+    min-width: 300px;
+	font-size: 18px;
+	text-align: center;
+    background-color: #fff;
+	}
+/*  Red rgb(193, 0, 8)
+    Black rgb(0, 0, 0)
+    White rgb(255, 255, 255)
+    google font oswald*/
+
+h1, h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(193, 0, 8);
+}
+    .hr-blk {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 25px;
+        background-color: #000;
+    }
+.cursor {
+    cursor: pointer;
+}
+    .container-fluid {
+        background-color: #fff;
+    }
+        .section {
+            padding-top: 40px;
+        }
+        .heading {
+            width: 100%;
+            height: auto;
+            padding: 0;
+        }
+        #headingpic {
+            width: 100%;
+            height: auto;
+        }
+        #sliderpic {
+            width: 100%;
+            height: auto;
+            margin-top: 0;
+        }
+        .headingintro {
+            padding-top: 50px;
+        }
+        .capsPara {
+            font-size: 26px;
+            padding: 5px 210px 25px 210px;
+            text-transform: uppercase;
+            line-height: 30px;
+        }
+
+        /*----------------------Slider section----------------------*/
+        #dinerslidermulti {
+            /*height: 760px;*/
+            margin-bottom: 20px;
+        }
+            .blackBar {
+                width: 100%;
+                height: 40px;
+                background-color: #000;
+                color: #fff;
+                padding: 5px;
+            }
+            .socialBar {
+                width: 100%;
+                height: 80px;
+                background-color: #000;
+                color: #fff;
+                padding: 15px;
+            }
+            .socialBar p {
+                margin: 0;
+            }
+        /*In js file (image size = 600 x 500)*/
+        .sideImage{
+
+        }
+            .sliderSingleText {
+                color: #000;
+                text-align: left;
+                padding: 15px;
+            }
+                .cpl-top {
+                    min-height: 350px;
+                    overflow: hidden;
+                }
+                .cpl-mid {
+                    height: 50px;
+                }
+                .cpl-social {
+                    display: inline-block;
+                    height: 70px;
+                }
+                .cpl-btm {
+                    display: inline-block;
+                    height: 70px;
+                    float: right;
+                 }
+                .cpl-btm .button {
+                    width: 170px;
+                    font-size: 1rem;
+                    padding: 10px;
+                    border-radius: 50px;
+                    background-color: rgb(193, 0, 8);
+                    color: #fff;
+                    margin-right: 30px;
+                    float: right;
+                    margin-top: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                .fa-icons {
+                    margin: 10px 20px 0 0 !important;
+                    font-size: 3em;
+                }
+        .dinerpad {
+            padding: 10px;
+        }
+        /*----------------------Map section----------------------*/
+        .mapaddress {
+            max-width: 100%;
+            padding: 0;
+            margin-bottom: -5px; /*space below map*/
+            }
+        #iframeDefault {
+            height: 350px;
+            width: 100%;
+        }
+        /*----------------------Contact section----------------------*/
+        #contact {
+            background-color: #000;
+            color: #FFF;
+        }
+            .contactLeft {
+                padding: 20px 0;
+                background-color: #000;
+            }
+                #contactForm {
+                    width: 70%;
+                    background-color: rgb(193, 0, 8);
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                }
+                label {
+                    display: block;
+                    text-align: left;
+                    padding-top: 10px;
+                    padding-left: 10%;
+                }
+                #contactForm input {
+                    width: 80%;
+                    font-size: 1rem;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                #contactForm textarea {
+                    width: 80%;
+                    font-size: 1rem;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                #submitFieldset {
+                    text-align: left;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    padding-left: 10%;
+                }
+                #contactForm button {
+                    width: 125px;
+                    font-size: 1rem;
+                    padding: 10px;
+                    border-radius: 50px;
+                    background-color: #ccc;
+                }
+                #contactForm label span {
+                    font-size: 1rem;
+                    color: #ff0;
+                }
+            .contactRight {
+                padding: 20px 0;
+                background-color: #000;
+            }
+                .rightContent {
+                    color: #fff;
+                    text-align: left;
+                }
+                .contactRight img {
+                    padding-bottom: 20px;
+                }
+                .contactRight p {
+                    padding-left: 20px;
+                }
+
+    #kernFooter {
+        padding: 30px;
+        height: 100px;
+        background-color: #000;
+    }
+        #kernFooter a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    /*-------------------Social media Controls-------------------------*/
+    .socialIcons { /*Controls font-awesome*/
+        width: 50px;
+        margin: 0 10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(0, 0, 0, 1);
+        border: none;
+        font-size: 3rem;
+        opacity: .7;
+    }
+    .si-inverted {
+        background-color: rgba(0, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    .fa-facebook-f {
+        width: 50px !important;  /*forced to over-ride .svg-inline--fa.fa-w-9*/
+
+    }
+    .fa-twitter {
+
+    }
+    .fa-instagram {
+        width: 50px !important;  /*forced to over-ride .svg-inline--fa.fa-w-9*/
+
+    }
+    .fa-youtube {
+
+    }
+    .fa-facebook-f:hover,
+    .fa-facebook-f:focus {
+        opacity: 1;
+    }
+    .fa-twitter:hover,
+    .fa-twitter:focus {
+        opacity: 1;
+    }
+    .fa-instagram:hover,
+    .fa-instagram:focus {
+        opacity: 1;
+    }
+    .fa-youtube:hover,
+    .fa-youtube:focus {
+        opacity: 1;
+    }
+
+
+    /*---------------------RESTAURANT PAGES---------------------------------------------------------------------------*/
+#restaurantPic {
+    width: 100%;
+}
+.rest-head {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+}
+    #paraHidden {
+        display: none;
+
+        overflow: hidden;
+    }
+    #moreLess {
+        color: #00f;
+        text-transform: capitalize;
+    }
+
+    .imageCell {
+        width: 100%;
+    }
+    .textCell {
+        overflow: hidden;
+        text-align: left;
+        padding: 15px 40px;
+    }
+        .textCell h3 {
+            text-transform: uppercase;
+        }
+
+    .restcontact {
+        margin-top: 30px;
+        background-color: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+    #lcontact {
+        height: 400px;
+        padding: 40px 20px 20px 200px;
+        text-align: left;
+    }
+
+    #rcontact {
+        height: 400px;
+        padding: 20px;
+        overflow: hidden;
+    }
+    #iframeDefault {
+        width: 100%;
+        height: 350px;
+    }
+    footer, #lvl2footer {
+        width: 100%;
+        padding-top: 30px;
+        font-size: .85rem;
+        height: 150px;
+        text-align: center;
+    }
+    .lalign {
+        text-align: left;
+    }
+    .calign {
+        text-align: center;
+    }
+    .ralign {
+        text-align: right;
+    }
+
+
+
+/*Bootstrap 5 column classes*/
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    width: 20%;
+    float: left;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#menu {
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:75px;
+    background-color:#DDDDDD;
+    color: #FFFFFF;
+    z-index:9999;
+    display: none;
+}
+/*-----------------------------Bootstrap 5 column classes------------------------*/
+.errorpage {
+    width: 100%;
+    height: 100%;
+    background-color: #ff7f50;
+    font-size:  2em;
+    text-align: center;
+    color: #fff;
+}
+.errorpage a {
+    color: #fff;
+}
+.errorpage a:hover {
+    color: #00f;
+}
+
+    /*
+                            Extra small     Small	    Medium	    Large	    Extra large
+                            <576px          ≥576px      ≥768px      ≥992px      ≥1200px
+    Max container width 	None (auto)     540px 	    720px 	    960px 	    1140px
+    Class prefix 	        .col- 	        .col-sm- 	.col-md- 	.col-lg- 	.col-xl-
+
+    Extra small devices (portrait phones, less than 576px)
+    // No media query since this is the default in Bootstrap
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+
+    We occasionally use media queries that go in the other direction
+    (the given screen size or smaller):
+
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) { ... }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) { ... }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991.98px) { ... }
+
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199.98px) { ... }
+
+    // Extra large devices (large desktops)
+    // No media query since the extra-large breakpoint has no upper
+    bound on its width
+
+    $zindex-dropdown:          1000 !default;
+    $zindex-sticky:            1020 !default;
+    $zindex-fixed:             1030 !default;
+    $zindex-modal-backdrop:    1040 !default;
+    $zindex-modal:             1050 !default;
+    $zindex-popover:           1060 !default;
+    $zindex-tooltip:           1070 !default;
+
+    To handle overlapping borders within components
+    (e.g., buttons and inputs in input groups),
+    we use low single digit z-index values of 1, 2, and 3
+    for default, hover, and active states. On hover/focus/active,
+    we bring a particular element to the forefront with a higher z-index value
+    to show their border over the sibling elements.*/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    #headingpic {
+        margin-top: 80px;
+    }
+
+    .capsPara {
+        font-size: 20px;
+        padding: 10px;
+        text-transform: uppercase;
+        line-height: 30px;
+    }
+
+    .sliderMultiText {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .blockcell {
+        width:  100%;
+    }
+
+    /*When slider on index.php is implemented in js. . . */
+    .sliderSingleText {
+        display: block;
+        text-align: center;
+    }
+    .cpl-top {
+        display: block;
+        width: 100%;
+    }
+    .cpl-mid {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    .cpl-social .fa-2x {
+        margin: 0 10px !important;
+        font-size: 3em;
+    }
+    .cpl-btm {
+        padding: 20px;
+    }
+    .cpl-btm .button {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .cpl-btm .button {
+        padding: 10px 30px;
+    }
+
+
+    .contactLeft {
+        padding: 10px;
+    }
+    #contactForm {
+        width: 100%;
+    }
+    #contactRight {
+        padding: 0;
+        text-align: center;
+    }
+        .rightContent {
+            text-align: center;
+        }
+        .rightContent img {
+            padding: 40px;
+        }
+        .rightContent p {
+            padding: 0;
+        }
+
+    .socialIcons { /*Controls font-awesome*/
+        font-size: 2.3rem;
+    }
+    .fa-facebook-f {
+        width: 40px !important;  /*forced to over-ride .svg-inline--fa.fa-w-9*/
+    }
+    .fa-instagram {
+        width: 40px !important;  /*forced to over-ride .svg-inline--fa.fa-w-9*/
+    }
+
+
+    /*---------------------MOBILE RESTAURANT PAGES---------------------------------------------------------------------------*/
+    body {
+        text-align: center;
+    }
+    .textCell {
+        text-align: center;
+    }
+    .cellBottomMobile {
+        order: 2;
+    }
+    .cellTopMobile {
+        order: 1;
+    }
+    #lcontact {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .rest-head {
+        display: none;
+    }
+
+
+}
+
