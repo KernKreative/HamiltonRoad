@@ -11,7 +11,7 @@ function hideMulti(num) {
         "Casa Cubana has plenty of Platos Latinos - Latin Dishes! Caribbean, Latin American, Mexican food.<br>Casa Cubana means literally 'private house'.<br>Casa Cubana offers Cuban cuisine, a blend of Spanish and African influences unique in the world kitchen. There's no denying that Cuban food is a favourite.",
         "",
         "https://www.facebook.com/Casa-Cubana-495849783894895/", "no-tw", "no-in", "no-yt",
-        "/HamiltonRoad/casacubana.php",
+        "casacubana.html",
         "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11675.578277212791!2d-81.2202902!3d42.9804945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe37c6a22bc635bd0!2sCasa+Cubana+Restaurant!5e0!3m2!1sen!2sca!4v1525191672363"
     ];
 
@@ -31,7 +31,7 @@ function hideMulti(num) {
         "Lo Nuestro has authentic Latin, Mexican, Salvadorian food - Ada Guzman is the proud owner and proud of her Latin roots.<br>Lo Nuestro Latin Restaurant is London, Ontario's Best Keep Secret for Latin food and a place doesn't get such a high rating on Urbanspoon by accident.<br>El Salvador's most notable dish is the pupusa, a thick handmade corn flour or rice flour tortilla stuffed with cheese, chicharrón (cooked pork meat ground to a paste) and refried beans or loroco - a vine flower bud native to Central America. Come try one today at Lo Nuestro!",
         "http://www.lonuestrolatinrestaurant.com",
         "https://www.facebook.com/lonuestrolatin/", "no-tw", "no-in", "no-yt",
-        "/HamiltonRoad/lonuestro.php",
+        "lonuestro.html",
         "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11675.848267371346!2d-81.2033228!3d42.9790727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fb468f296f68ced!2sLo+Nuestro+Latin+Restaurant!5e0!3m2!1sen!2sca!4v1525191619421"
     ];
 
@@ -41,7 +41,7 @@ function hideMulti(num) {
         "Su Casa is a Latin restaurant with many tasty 'platillos' to try.<br>Su Casa means 'your house', so come and enjoy the cuisine within.<br>Enjoy the many Spanish influenced dished at Su Casa where service is as important as the food.",
         "",
         "https://www.facebook.com/Su-Casa-Restaurant-441426775924835/", "no-tw", "no-in", "no-yt",
-        "/HamiltonRoad/kingofpigs.php",
+        "sucasa.html",
         "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11675.346848641615!2d-81.2205136!3d42.9817132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f991eca4a201ba1!2sSu+Casa!5e0!3m2!1sen!2sca!4v1525191735571"
     ];
 
@@ -52,7 +52,7 @@ function hideMulti(num) {
         "Tasca Piri Piri is authentic Portuguese, European cuisine.<br>Piri Piri is a hot sauce, of Portuguese colonial origin, made from red chilli peppers. Ever tried chicken piri piri??<br>Tasca Piri Piri serves many tasty dishes!",
         "",
         "no-fb", "no-tw", "no-in", "no-yt",
-        "/HamiltonRoad/kingofpigs.php",
+        "tascapiripiri.html",
         "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11675.68127408959!2d-81.21444552812497!3d42.979952110772885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa89169b49bbfa0cf!2sTasca+Piri+Piri!5e0!3m2!1sen!2sca!4v1525192143409"
     ];
 

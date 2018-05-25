@@ -35,7 +35,7 @@ hr {
         background-color: #fff;
     }
         .section {
-            padding-top: 40px;
+            padding-top: 50px;
         }
         .heading {
             width: 100%;
@@ -51,9 +51,7 @@ hr {
             height: auto;
             margin-top: 0;
         }
-        .headingintro {
-            padding-top: 50px;
-        }
+
         .capsPara {
             font-size: 26px;
             padding: 5px 210px 25px 210px;
@@ -284,30 +282,37 @@ hr {
         color: #00f;
         text-transform: capitalize;
     }
-
-    .imageCell {
-        width: 100%;
+    #docMenuSpecials hr {
+        margin-bottom: 75px;
     }
+    .imageCell {
+        padding: 0;
+    }
+        .imgMenuSpecial {
+            width: 100%;
+        }
     .textCell {
         overflow: hidden;
         text-align: left;
-        padding: 15px 40px;
+        padding: 75px 40px 15px 40px;
     }
         .textCell h3 {
             text-transform: uppercase;
         }
 
     .restcontact {
-        margin-top: 30px;
         background-color: rgba(0,0,0,1);
         color: rgba(255,255,255,1);
+        padding-top: 40px;
     }
     #lcontact {
         height: 400px;
         padding: 40px 20px 20px 200px;
         text-align: left;
     }
-
+    #lcontact p {
+        padding-bottom: 5px;
+    }
     #rcontact {
         height: 400px;
         padding: 20px;
@@ -427,11 +432,6 @@ hr {
     we bring a particular element to the forefront with a higher z-index value
     to show their border over the sibling elements.*/
 
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-
-}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
@@ -523,6 +523,7 @@ hr {
     }
     .textCell {
         text-align: center;
+        padding: 20px;
     }
     .cellBottomMobile {
         order: 2;
